@@ -1,0 +1,10 @@
+bm_bookmark_the_first = {
+	name = "THE_FIRST_ERA"
+	desc = "THE_FIRST_ERA_INFO"
+	date = 2666.1.1
+
+	era = yes
+	picture = GFX_pick_era_image_6
+	custom_start = yes	
+
+}

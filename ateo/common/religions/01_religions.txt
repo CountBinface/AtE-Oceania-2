@@ -1,0 +1,300 @@
+# Religion-specific opinion can be added to modifiers (E.G., norse_pagan_opinion = 5), but the modifier *has* to be defined in 00_modifier_definitions.txt as well. It also needs localisation. Works for groups as well
+
+# join_crusade_if_bordering_hostile = yes # The AI won't refrain from joining a crusade simply because it borders a heathen/heretic realm
+
+# This trigger defines who can see a character's secret religion. The character with the secret religion is FROM, while the viewer is ROOT
+# Characters can always see their own secret religion. The observer can see all secret religions
+secret_religion_visibility_trigger = {
+	secret_religion = FROM
+}
+
+christian = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.8 0.6 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Enoch Isaac Isaiah Jeremiah Joseph Malachi Manasseh Moses Noah Paul Peter Simon Solomon
+	}
+	female_names = {
+		Angela Josephine Marianne Mary Sarah
+	}
+	
+	#default interface
+	
+	noumean = {
+		graphical_culture = westerngfx
+
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0.9 0.7 0 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		autocephaly = yes
+		pentarchy = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		can_retire_to_monastery = yes
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = marist
+	}
+	
+	marist = {
+		graphical_culture = westerngfx
+
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0.95 0.6 0 }
+		parent = noumean
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = noumean
+	}
+}
+
+christian-syncretic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	
+	color = { 0.6 0.0 0.0 }
+	
+	# Names given only to Christian-Syncretic characters (base names) same as Christian names
+	male_names = {
+		Enoch Isaac Isaiah Jeremiah Joseph Malachi Manasseh Moses Noah Paul Peter Simon Solomon
+	}
+	female_names = {
+		Angela Josephine Marianne Mary Sarah
+	}
+	
+	interface_skin = { pagan_interface }
+
+	congregational_reformed = { 
+		graphical_culture = westerngfx
+		alternate_start = { always = no }
+		
+		icon = 2
+		heresy_icon = 3
+		
+		ai_convert_other_group = 2
+		ai_convert_same_group = 2
+		
+		color = { 0.9 0.7 0.2 }
+
+		high_god_name = GOD_GOD
+
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		allow_in_ruler_designer = no
+		attacking_same_religion_piety_loss = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = congregational
+	}
+
+	congregational = { 
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 3
+		
+		color = { 0.6 0.7 0.4 }
+		
+		high_god_name = GOD_GOD
+
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		reformed = congregational_reformed
+		allow_viking_invasion = yes
+		allow_looting = yes
+		attacking_same_religion_piety_loss = yes
+
+		aggression = 2.0 # AI aggression factor
+
+		dislike_tribal_organization = yes
+		
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = congregational_reformed
+	}
+}
+
+latter_day_saints = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 2 #
+	
+	color = { 0.6 0.3 0.5 }
+
+	# Names given only to Mormon characters (base names) same as Christian names for now
+	male_names = {
+		Enoch Isaac Isaiah Jeremiah Joseph Malachi Manasseh Moses Noah Paul Peter Simon Solomon
+	}
+	
+	female_names = {
+		Angela Josephine Marianne Mary Sarah
+	}
+	
+	#default interface
+	
+	mormon = {
+		graphical_culture = westerngfx
+
+		icon = 6
+		heresy_icon = 7
+		
+		color = { 0.75 0.4 0.55 }
+		
+		crusade_name = EXPEDITION
+		scripture_name = THE_BOOK_OF_MORMON
+		priest_title = PRIEST
+
+		high_god_name = GOD_THE_HEAVENLY_FATHER
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JEHOVAH GOD_JESUS GOD_THE_PROPHET GOD_THE_HEAVENLY_FATHER GOD_THE_GODHEAD
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		max_wives = 1
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = smithite
+	}
+	
+	smithite = {
+		graphical_culture = westerngfx
+
+		icon = 6
+		heresy_icon = 7
+		
+		color = { 0.8 0.55 0.6 }
+		parent = mormon
+		
+		crusade_name = EXPEDITION
+		scripture_name = THE_BOOK_OF_MORMON
+		priest_title = PRIEST
+
+		high_god_name = GOD_THE_HEAVENLY_FATHER
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JEHOVAH GOD_JESUS GOD_THE_PROPHET GOD_THE_HEAVENLY_FATHER GOD_THE_GODHEAD
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		max_wives = 4
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = mormon
+	}
+}

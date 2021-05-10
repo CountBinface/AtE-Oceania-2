@@ -1,0 +1,21 @@
+# c_tongatapu
+
+# County Title
+title = c_tongatapu
+
+# Settlements
+max_settlements = 4
+
+b_nukualofa = tribal
+b_mua = temple
+#b_ohonua = temple
+#b_vaini = castle
+#b_kolonga = city
+#b_haateiho = temple
+#b_nukunuku = castle
+
+# Misc
+culture = tongan
+religion = mormon
+
+#History

@@ -1,0 +1,21 @@
+# c_rawaki
+
+# County Title
+title = c_rawaki
+
+# Settlements
+max_settlements = 1
+
+b_kanton = tribal
+#b_enderbury = city
+#b_manra = temple
+#b_nikumaroro = castle
+#b_orona = city
+#b_rawaki = temple
+#b_mckean = castle
+
+# Misc
+culture = i-kiribati
+religion = congregational
+
+#History

@@ -1,0 +1,21 @@
+# c_tuamasaga
+
+# County Title
+title = c_tuamasaga
+
+# Settlements
+max_settlements = 4
+
+b_apia = tribal
+b_mulifanua = temple
+#b_leulumoega = temple
+#b_afega = castle
+#b_falelatai = city
+#b_vaitele = temple
+#b_faleasiu = castle
+
+# Misc
+culture = samoan
+religion = congregational
+
+#History

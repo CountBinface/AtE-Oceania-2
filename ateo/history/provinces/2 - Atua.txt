@@ -1,0 +1,21 @@
+# c_atua
+
+# County Title
+title = c_atua
+
+# Settlements
+max_settlements = 3
+
+b_lufilufi = tribal
+#b_samamea = city
+#b_lualii = temple
+#b_solosolo = castle
+#b_salesi = city
+#b_amalie = temple
+#b_lalomanu = castle
+
+# Misc
+culture = samoan
+religion = congregational
+
+#History

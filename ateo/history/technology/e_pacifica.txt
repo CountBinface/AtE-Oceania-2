@@ -1,0 +1,19 @@
+#PACIFICA
+technology = {
+	titles = {
+		d_north_polynesia
+		d_samoa
+		d_tonga
+		d_wallis_and_futuna
+	}
+	768 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2666 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+}

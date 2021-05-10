@@ -1,0 +1,21 @@
+# c_niua
+
+# County Title
+title = c_niua
+
+# Settlements
+max_settlements = 2
+
+b_hihifo = tribal
+#b_falehau = city
+#b_vaipoa = temple
+#b_esia = castle
+#b_tongamama = city
+#b_fataulua = temple
+#b_petani = castle
+
+# Misc
+culture = tongan
+religion = mormon
+
+#History

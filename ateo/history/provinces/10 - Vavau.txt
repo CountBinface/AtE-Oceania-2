@@ -1,0 +1,21 @@
+# c_vavau
+
+# County Title
+title = c_vavau
+
+# Settlements
+max_settlements = 3
+
+b_neiafu = tribal
+#b_utungake = city
+#b_talihau = temple
+#b_leimatua = castle
+#b_mataika = city
+#b_taanea = temple
+#b_longomapu = castle
+
+# Misc
+culture = tongan
+religion = mormon
+
+#History

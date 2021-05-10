@@ -1,0 +1,21 @@
+# c_tuvalu
+
+# County Title
+title = c_tuvalu
+
+# Settlements
+max_settlements = 3
+
+b_funafuti = tribal
+#b_savave = city
+#b_motufoua = temple
+#b_teava = castle
+#b_tanrake = city
+#b_tumaseu = temple
+#b_tokelau = castle
+
+# Misc
+culture = i-kiribati
+religion = congregational
+
+#History

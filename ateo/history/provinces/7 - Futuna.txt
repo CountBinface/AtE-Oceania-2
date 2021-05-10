@@ -1,0 +1,21 @@
+# c_futuna
+
+# County Title
+title = c_futuna
+
+# Settlements
+max_settlements = 2
+
+b_ono = tribal
+#b_taoa = city
+#b_leava = temple
+#b_fiua = castle
+#b_kolia = city
+#b_vele = temple
+#b_nuku = castle
+
+# Misc
+culture = samoan
+religion = noumean
+
+#History

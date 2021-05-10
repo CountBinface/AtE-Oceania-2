@@ -1,0 +1,15 @@
+1000={#count of Tutuila
+	name="Sione"
+	dynasty=120
+	culture=samoan
+	religion=congregational
+	martial=10
+	diplomacy=10
+	trait=grey_eminence
+	trait=strong
+	trait=kind
+	trait=proud
+	trait=ambitious
+	trait=gregarious
+	2641.5.2={birth=yes}
+}

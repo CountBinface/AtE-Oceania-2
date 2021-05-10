@@ -1,0 +1,111 @@
+polynesian = {
+	graphical_cultures = { westerngfx }
+
+	samoan = {
+		graphical_cultures = { muslimgfx }
+		#unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+
+		color = { 0.99 0.34 0.33 }
+		
+		dukes_called_kings = yes
+
+		male_names = {
+			Alama_Alema Aleki_Alexander Aputi
+			Enele
+			Fetu Filipo_Philip
+			Haych Henare_Henry
+			Iosefa_Joseph Iosua_Joshua Isaia_Isaiah
+			Lagi Laki
+			Manaia
+			Noa_Noah
+			Pita_Peter
+			Rangi
+			Sione_John
+			Tamati
+			Vaea
+		}
+		female_names = {
+			Ana_Anna Agelu_Angela Alofa
+			Elisapeta_Elizabeth
+			Fa'alupe Fa'atasi
+			Iuni_June
+			Lagi Leota Lulu Lupelele
+			Manamea Masina
+			Nuanua
+			Samaria Sefina_Josephine Sina
+			Taeao Talia_Talia Tamah_Tammy Teuila
+			Wiki
+		}
+
+		from_dynasty_prefix = "O "
+		
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 20
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 20
+		mother_name_chance = 5
+		
+		seafarer = yes
+		modifier = default_culture_modifier
+	}
+	
+	tongan = {
+		graphical_cultures = { muslimgfx }
+		#unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+
+		color = { 0.47 0.06 0.03 }
+		
+		dukes_called_kings = yes
+
+		male_names = {
+			'Aisake_Isaac 'Aleki_Alexander 'Alipate_Albert 'Anitelu_Andrew 'Anitoni_Anthony
+			'Etuate_Edward
+			Feleti_Frederick
+			Heneli_Henry
+			'Inoke_Enoch 'Isileli
+			Lisiate_Richard Lopeti_Robert
+			Maikolo_Michael Malakai_Malachi Manase_Manasseh Manu Mosese_Moses
+			Paea Paula_Paul Peni_Benjamin Pita_Peter
+			Salesi_Charles Samiuela_Samuel Semisi_James Siaosi_George Sifa_Joseph Simione_Simon Sione_John Sioeli_Joel Siua_Joshua Soane_John Solomone_Solomon Songi
+			Taitusi_Titus Taniela_Daniel Taufa Tevita_David Tupou
+			Vaea Viliami_William
+		}
+		female_names = {
+			'Alisi_Alice 'Amelia_Amelia 'Ana_Anne
+			'Elenoa_Helen 'Ema_Emma
+			Fifita Fusipala
+			'Ilaisaane 'Ilisapesi_Elizabeth
+			Kaati_Catherine
+			Lavinia Lesieli Lose_Rose Luisa_Louisa Lupe
+			Ma'ata_Martha Makaleti Malia_Mary Mana Mele_Mary Meleane_Marianne
+			Nanise_Nancy Neomai_Naiomi
+			'Ofa 'Olivia_Olivia
+			Paea Pesi_Elizabeth
+			Salote_Charlotte Seini_Jane Sela_Sarah Siale
+			Tolofi_Dorothy
+		}
+
+		from_dynasty_prefix = "'o "
+		
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 20
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 20
+		mother_name_chance = 5
+		
+		seafarer = yes
+		modifier = default_culture_modifier
+	}
+}

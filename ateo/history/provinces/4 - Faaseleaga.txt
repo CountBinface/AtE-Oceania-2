@@ -1,0 +1,21 @@
+# c_faaseleaga
+
+# County Title
+title = c_faaseleaga
+
+# Settlements
+max_settlements = 3
+
+b_salelologa = tribal
+#b_tuasivi = city
+#b_sapapalii = temple
+#b_saleaula = castle
+#b_vailoa_i_palauli = city
+#b_puapua = temple
+#b_safune = castle
+
+# Misc
+culture = samoan
+religion = congregational
+
+#History

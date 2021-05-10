@@ -1,0 +1,51 @@
+# Island regions - no land path from the continent
+# The AI needs these to optimize path finding
+#
+# NOTE: do not add any regions here that are NOT islands
+
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+region_samoa = {
+	provinces = { 1 2 3 4 }
+}
+
+region_tutuila = {
+	provinces = { 5 }
+}
+
+region_uvea = {
+	provinces = { 6 }
+}
+
+region_futuna = {
+	provinces = { 7 }
+}
+
+region_niua = {
+	provinces = { 8 }
+}
+
+region_niue = {
+	provinces = { 9 }
+}
+
+region_tonga = {
+	provinces = { 10 11 12 }
+}
+
+region_tokelau = {
+	provinces = { 13 }
+}
+
+region_tuvalu = {
+	provinces = { 14 }
+}
+
+region_rawaki = {
+	provinces = { 15 }
+}

@@ -1,0 +1,21 @@
+# c_tutuila
+
+# County Title
+title = c_tutuila
+
+# Settlements
+max_settlements = 4
+
+b_pago_pago = tribal
+#b_tafuna = city
+#b_leone = temple
+#b_faleniu = castle
+#b_aua = city
+#b_mapusagafou = temple
+#b_fagatogo = castle
+
+# Misc
+culture = samoan
+religion = congregational
+
+#History

@@ -1,0 +1,103 @@
+100 = { name="Sua" culture=samoan }
+101 = { name="Leota" culture=samoan }
+102 = { name="Mauga" culture=samoan }
+103 = { name="Ioane" culture=samoan }
+104 = { name="Faumuina" culture=samoan }
+105 = { name="Tupuola" culture=samoan }
+106 = { name="Tuimavave" culture=samoan }
+107 = { name="Maiava" culture=samoan }
+108 = { name="Matautia" culture=samoan }
+109 = { name="Tanuvasa" culture=samoan }
+110 = { name="Mamea" culture=samoan }
+111 = { name="To'o" culture=samoan }
+112 = { name="Lefe'e" culture=samoan }
+113 = { name="Asoau" culture=samoan }
+114 = { name="Faaosofia" culture=samoan }
+115 = { name="Aaitui" culture=samoan }
+116 = { name="Alaalatoa" culture=samoan }
+117 = { name="Anae" culture=samoan }
+118 = { name="Faamausili" culture=samoan }
+119 = { name="Leuluai" culture=samoan }
+120 = { name="Maivia" culture=samoan }
+121 = { name="Masoe" culture=samoan }
+122 = { name="Nu'uausala" culture=samoan }
+123 = { name="Palepoi" culture=samoan }
+124 = { name="Savea" culture=samoan }
+125 = { name="Tuiasosopo" culture=samoan }
+126 = { name="Tuivasa" culture=samoan }
+127 = { name="Vaai" culture=samoan }
+128 = { name="Fepuleai" culture=samoan }
+129 = { name="Tuala" culture=samoan }
+130 = { name="Ah Liki" culture=samoan }
+131 = { name="Fuimaono" culture=samoan }
+132 = { name="Esera" culture=samoan }
+133 = { name="Tuigamala" culture=samoan }
+134 = { name="Mageo" culture=samoan }
+135 = { name="Samuelu" culture=samoan }
+136 = { name="Satele" culture=samoan }
+137 = { name="Lafaele" culture=samoan }
+138 = { name="Tagaloa" culture=samoan }
+139 = { name="Lutu" culture=samoan }
+140 = { name="Tanielu" culture=samoan }
+141 = { name="Tupua" culture=samoan }
+142 = { name="Lefiti" culture=samoan }
+143 = { name="Ieremia" culture=samoan }
+144 = { name="Tupuala" culture=samoan }
+145 = { name="Moliga" culture=samoan }
+146 = { name="Solaita" culture=samoan }
+147 = { name="Tilo" culture=samoan }
+148 = { name="Fanene" culture=samoan }
+149 = { name="Magalei" culture=samoan }
+150 = { name="Elisara" culture=samoan }
+151 = { name="Fale" culture=samoan }
+152 = { name="Felise" culture=samoan }
+153 = { name="Leiato" culture=samoan }
+154 = { name="Sefo" culture=samoan }
+155 = { name="Sagapolutele" culture=samoan }
+
+200 = { name="Latu" culture=tongan }
+201 = { name="Fifita" culture=tongan }
+202 = { name="Finau" culture=tongan }
+203 = { name="Tupou" culture=tongan }
+204 = { name="Mafi" culture=tongan }
+205 = { name="Fonou" culture=tongan }
+206 = { name="Moala" culture=tongan }
+207 = { name="Havea" culture=tongan }
+208 = { name="Manu" culture=tongan }
+209 = { name="Taufa" culture=tongan }
+210 = { name="Vea" culture=tongan }
+211 = { name="Taumoepeau" culture=tongan }
+212 = { name="Palu" culture=tongan }
+213 = { name="Tukuafu" culture=tongan }
+214 = { name="Nau" culture=tongan }
+215 = { name="Faletau" culture=tongan }
+216 = { name="Soakai" culture=tongan }
+217 = { name="Langi" culture=tongan }
+218 = { name="Tonga" culture=tongan }
+219 = { name="Kinikini" culture=tongan }
+220 = { name="Kauvaka" culture=tongan }
+221 = { name="Taufa" culture=tongan }
+222 = { name="Pakalani" culture=tongan }
+223 = { name="Palanite" culture=tongan }
+224 = { name="Fehoko" culture=tongan }
+225 = { name="Lomu" culture=tongan }
+226 = { name="'Aliki" culture=tongan }
+227 = { name="Sika" culture=tongan }
+228 = { name="'Uluaki" culture=tongan }
+229 = { name="Fili" culture=tongan }
+230 = { name="Tutone" culture=tongan }
+231 = { name="Vaitohi" culture=tongan }
+232 = { name="Fatani" culture=tongan }
+
+300 = { name="Ioane" culture=i-kiribati}
+301 = { name="Bauro" culture=i-kiribati}
+302 = { name="Iotebwa" culture=i-kiribati}
+303 = { name="Timon" culture=i-kiribati}
+304 = { name="Betero" culture=i-kiribati}
+305 = { name="Teitikai" culture=i-kiribati}
+306 = { name="Timeon" culture=i-kiribati}
+307 = { name="Tamuera" culture=i-kiribati}
+308 = { name="Tooma" culture=i-kiribati}
+309 = { name="Beia" culture=i-kiribati}
+310 = { name="Tioti" culture=i-kiribati}
+311 = { name="Iotia" culture=i-kiribati}

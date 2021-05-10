@@ -1,0 +1,21 @@
+# c_uvea
+
+# County Title
+title = c_uvea
+
+# Settlements
+max_settlements = 2
+
+b_matautu = tribal
+#b_liku = city
+#b_utufua = temple
+#b_falaleu = castle
+#b_alele = city
+#b_malae = temple
+#b_akaaka = castle
+
+# Misc
+culture = tongan
+religion = noumean
+
+#History

@@ -1,0 +1,21 @@
+# c_palauli
+
+# County Title
+title = c_palauli
+
+# Settlements
+max_settlements = 3
+
+b_asau = tribal
+#b_safotu = city
+#b_sasina = temple
+#b_satupaitea = castle
+#b_gataivai = city
+#b_taga = temple
+#b_salailua = castle
+
+# Misc
+culture = samoan
+religion = congregational
+
+#History

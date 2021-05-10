@@ -1,0 +1,48 @@
+micronesian = {
+	graphical_cultures = { westerngfx }
+
+	i-kiribati = {
+		graphical_cultures = { muslimgfx }
+		#unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+
+		color = {0.6 0.0 0.7 }
+		
+		dukes_called_kings = yes
+
+		male_names = {
+			Baniti Bauro Betero_Peter
+			Gese
+			Ieremia_Jeremiah Ioane_John Ionatan_Jonathan Iotebwa_Joseph
+			Kaie Kirara
+			Mikaere_Michael
+			Tamuera Tekeeua Tiaon Timon
+			Vise
+		}
+		female_names = {
+			Akata Akineti Ana_Anne Angela_Angela Ariti
+			Bioua
+			Eria
+			Ioana_Joan
+			Kabwebwe Kareti
+			Maatang Maria_Mary Meere_Mary
+			Sina
+		}
+
+		from_dynasty_prefix = "ni "
+		
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		seafarer = yes
+		modifier = default_culture_modifier
+	}
+}

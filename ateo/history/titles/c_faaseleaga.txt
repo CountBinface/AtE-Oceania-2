@@ -1,3 +1,4 @@
-800.1.1={
-	liege=k_polynesia
+2641.6.13={
+	holder=1010
+	liege=d_samoa
 }

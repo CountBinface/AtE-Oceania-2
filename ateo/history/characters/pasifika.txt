@@ -1,4 +1,4 @@
-1000={#count of Tutuila
+1000={#Chief of Tutuila
 	name="Sione"
 	dynasty=120
 	culture=samoan
@@ -11,5 +11,209 @@
 	trait=proud
 	trait=ambitious
 	trait=gregarious
+	father=1002
+	mother=1001
 	2641.5.2={birth=yes}
+}
+
+1001={#mother of Sione
+	name="Wiki"
+	female=yes
+	dynasty=120
+	culture=samoan
+	religion=congregational
+	trait=intricate_webweaver
+	trait=patient
+	trait=chaste
+	trait=deceitful
+	trait=envious
+	trait=shrewd
+	father=1003
+	2617.5.9={birth=yes}
+	2638.6.12={add_matrilineal_spouse=1002}
+}
+
+1002={#former Chief of Tutuila
+	name="Rangi"
+	dynasty=103
+	culture=samoan
+	religion=congregational
+	trait=thrifty_clerk
+	trait=strong
+	trait=lustful
+	trait=patient
+	trait=stubborn
+	trait=content
+	2613.8.24={birth=yes}
+	2638.6.12={add_matrilineal_spouse=1001}
+	2665.1.15={death=yes}
+}
+
+1003={#former High Chief of Samoa
+	name="Sione"
+	dynasty=120
+	culture=samoan
+	religion=congregational
+	trait=grey_eminence
+	trait=proud
+	trait=ambitious
+	trait=gregarious
+	trait=deceitful
+	trait=gamer
+	2595.4.6={birth=yes}
+	2640.6.13={death=yes}
+}
+
+1004={#High Chief of Samoa
+	name="Noa"
+	dynasty=133
+	culture=samoan
+	religion=congregational
+	trait=midas_touched
+	trait=gardener
+	trait=diligent
+	trait=brave
+	trait=zealous
+	2611.9.5={birth=yes}
+}
+
+1005={#eldest son of Noa
+	name="Henare"
+	dynasty=133
+	culture=samoan
+	religion=congregational
+	trait=skilled_tactician
+	trait=kind
+	trait=brave
+	trait=content
+	trait=trusting
+	father=1004
+	2633.12.19={birth=yes}
+}
+
+1006={#eldest daughter of Noa
+	name="Iuni"
+	female=yes
+	dynasty=133
+	culture=samoan
+	religion=congregational
+	trait=midas_touched
+	trait=uncouth
+	trait=craven
+	trait=shrewd
+	trait=diligent
+	trait=paranoid
+	father=1004
+	2637.3.11={birth=yes}
+}
+
+1007={#second son of Noa
+	name="Alama"
+	dynasty=133
+	culture=samoan
+	religion=congregational
+	trait=intricate_webweaver
+	trait=groomed
+	trait=patient
+	trait=proud
+	trait=ambitious
+	trait=arbitrary
+	father=1004
+	2641.7.24={birth=yes}
+}
+
+1008={#youngest son of Noa
+	name="Iosefa"
+	dynasty=133
+	culture=samoan
+	religion=congregational
+	trait=underhanded_rogue
+	trait=lustful
+	trait=craven
+	trait=gregarious
+	father=1004
+	2643.12.19={birth=yes}
+}
+
+1009={#youngest daughter of Noa
+	name="Talia"
+	female=yes
+	dynasty=133
+	culture=samoan
+	religion=congregational
+	trait=scholarly_theologian
+	trait=kind
+	trait=frail
+	trait=erudite
+	trait=shy
+	father=1004
+	2646.9.27={birth=yes}
+}
+
+1010={#Chief of Fa'aseleaga and Palauli
+	name="Aleki"
+	dynasty=128
+	culture=samoan
+	religion=mormon
+	trait=intricate_webweaver
+	trait=temperate
+	trait=patient
+	trait=humble
+	trait=deceitful
+	2617.2.11={birth=yes}
+}
+
+1011={#eldest daughter of Aleki
+	name="Elisapeta"
+	female=yes
+	dynasty=128
+	culture=samoan
+	religion=congregational
+	trait=brilliant_strategist
+	trait=brawny
+	trait=uncouth
+	trait=wroth
+	trait=proud
+	trait=brave
+	trait=gregarious
+	trait=zealous
+	father=1010
+	2643.5.9={birth=yes}
+}
+
+1012={#youngest daughter of Aleki
+	name="Fa'alupe"
+	female=yes
+	dynasty=128
+	culture=samoan
+	religion=mormon
+	trait=mastermind_theologian
+	trait=temperate
+	trait=patient
+	trait=erudite
+	trait=zealous
+	father=1010
+	2648.8.26={birth=yes}
+}
+
+1013={#former High Chief of Samoa
+	name="Iosefa"
+	dynasty=138
+	culture=samoan
+	religion=congregational
+	trait=brilliant_strategist
+	trait=ambitious
+	2433.5.10={birth=yes}
+	2497.3.1={death=yes}
+}
+
+1014={#former High Chief of Samoa
+	name="Haych"
+	dynasty=142
+	culture=samoan
+	religion=congregational
+	trait=grey_eminence
+	trait=shrewd
+	2516.2.21={birth=yes}
+	2574.5.26={death=yes}
 }

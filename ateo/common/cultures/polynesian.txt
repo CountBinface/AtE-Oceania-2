@@ -10,30 +10,30 @@ polynesian = {
 		dukes_called_kings = yes
 
 		male_names = {
-			Alama_Alema Aleki_Alexander Aputi
-			Enele
-			Fetu Filipo_Philip
+			Aneteru_Andrew Alama_Alema Aleki_Alexander Aputi
+			Elia_Elijah Enele
+			Farani_Francis Fetu Filipo_Philip
 			Haych Henare_Henry
-			Iosefa_Joseph Iosua_Joshua Isaia_Isaiah
-			Lagi Laki
-			Manaia
+			Iakopo_Jacob Ioane_John Ioelu_Joel Ionatana_Jonathan Iopu_Job Iosefa_Joseph Iosua_Joshua Isaako_Isaac Isaia_Isaiah
+			Laki Lemuelu_Lemuel Loto
+			Maika Manaia Manuia Mikaele_Michael Mosaia_Mosiah Mose_Moses
 			Noa_Noah
-			Pita_Peter
-			Rangi
-			Sione_John
-			Tamati
-			Vaea
+			Paulo_Paul Peniamina_Benjamin Petelo_Peter Peteru_Peter
+			Rangi Ropati_Robert
+			Samu_Samuel Samuelu_Samuel Semi_James Siaki_Jack 
+			Tamati_Thomas Tanielu_Daniel Tavita_David Timoteo_Timothy
 		}
 		female_names = {
-			Ana_Anna Agelu_Angela Alofa
-			Elisapeta_Elizabeth
-			Fa'alupe Fa'atasi
-			Iuni_June
-			Lagi Leota Lulu Lupelele
-			Manamea Masina
-			Nuanua
-			Samaria Sefina_Josephine Sina
-			Taeao Talia_Talia Tamah_Tammy Teuila
+			Agelu_Angela Alofa Amelia_Amelia Ana_Anne
+			Elisapeta_Elizabeth Emere Eseta_Esther Eva_Eve
+			Fetu
+			Ianeta_Janet Ioana_Joan Iulia_Julia Iuni_June
+			Lagi Lani
+			Malia_Malia Mareta_Martha Masina Mele_Mary
+			Naomi_Naiomi Natia
+			Penina_Penina Pepe
+			Samaria Sarai_Sarah Sefina_Josephine Sera_Sarah Sieni_Jane Sina Sosina
+			Talia Tamah_Tamara Tepora_Deborah Teuila
 			Wiki
 		}
 
@@ -83,7 +83,7 @@ polynesian = {
 			'Ilaisaane 'Ilisapesi_Elizabeth
 			Kaati_Catherine
 			Lavinia Lesieli Lose_Rose Luisa_Louisa Lupe
-			Ma'ata_Martha Makaleti Malia_Mary Mana Mele_Mary Meleane_Marianne
+			Ma'ata_Martha Makaleti Malia_Malia Mana Mele_Mary Meleane_Marianne
 			Nanise_Nancy Neomai_Naiomi
 			'Ofa 'Olivia_Olivia
 			Paea Pesi_Elizabeth

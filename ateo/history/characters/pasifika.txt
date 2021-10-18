@@ -1,5 +1,5 @@
 1000={#Chief of Tutuila
-	name="Sione"
+	name="Ioane"
 	dynasty=120
 	culture=samoan
 	religion=congregational
@@ -17,7 +17,7 @@
 }
 
 1001={#mother of Sione
-	name="Wiki"
+	name="Melisa"
 	female=yes
 	dynasty=120
 	culture=samoan
@@ -34,7 +34,7 @@
 }
 
 1002={#former Chief of Tutuila
-	name="Rangi"
+	name="Ropati"
 	dynasty=103
 	culture=samoan
 	religion=congregational
@@ -50,7 +50,7 @@
 }
 
 1003={#former High Chief of Samoa
-	name="Sione"
+	name="Ioane"
 	dynasty=120
 	culture=samoan
 	religion=congregational
@@ -123,7 +123,7 @@
 }
 
 1008={#youngest son of Noa
-	name="Iosefa"
+	name="Farani"
 	dynasty=133
 	culture=samoan
 	religion=congregational
@@ -182,7 +182,7 @@
 }
 
 1012={#youngest daughter of Aleki
-	name="Fa'alupe"
+	name="Fetu"
 	female=yes
 	dynasty=128
 	culture=samoan
@@ -197,7 +197,7 @@
 }
 
 1013={#former High Chief of Samoa
-	name="Iosefa"
+	name="Haych"
 	dynasty=138
 	culture=samoan
 	religion=congregational
@@ -208,7 +208,7 @@
 }
 
 1014={#former High Chief of Samoa
-	name="Haych"
+	name="Manaia"
 	dynasty=142
 	culture=samoan
 	religion=congregational
@@ -217,3 +217,4 @@
 	2516.2.21={birth=yes}
 	2574.5.26={death=yes}
 }
+

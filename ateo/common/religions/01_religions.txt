@@ -22,10 +22,10 @@ christian = {
 	
 	# Names given only to Christian characters (base names)
 	male_names = {
-		Enoch Isaac Isaiah Jeremiah Joseph Malachi Manasseh Moses Noah Paul Peter Simon Solomon
+		Aaron Adam Enoch Ephraim Isaac Isaiah Jeremiah Malachi Manasseh Moses Mosiah Noah Paul Peter Simon Solomon
 	}
 	female_names = {
-		Angela Josephine Marianne Mary Sarah
+		Angela Deborah Esther Magdalene Marianne Martha Mary Salome Sarah Tamara
 	}
 	
 	#default interface
@@ -211,10 +211,10 @@ christian-syncretic = {
 	
 	# Names given only to Christian-Syncretic characters (base names) same as Christian names
 	male_names = {
-		Enoch Isaac Isaiah Jeremiah Joseph Malachi Manasseh Moses Noah Paul Peter Simon Solomon
+		Aaron Adam Enoch Ephraim Isaac Isaiah Jeremiah Malachi Manasseh Moses Mosiah Noah Paul Peter Simon Solomon
 	}
 	female_names = {
-		Angela Josephine Marianne Mary Sarah
+		Angela Deborah Esther Magdalene Marianne Martha Mary Salome Sarah Tamara
 	}
 	
 	interface_skin = { pagan_interface }
@@ -374,11 +374,10 @@ latter_day_saints = {
 
 	# Names given only to Mormon characters (base names) same as Christian names for now
 	male_names = {
-		Enoch Isaac Isaiah Jeremiah Joseph Malachi Manasseh Moses Noah Paul Peter Simon Solomon
+		Aaron Adam Enoch Ephraim Isaac Isaiah Jeremiah Malachi Manasseh Moses Mosiah Noah Paul Peter Simon Solomon
 	}
-	
 	female_names = {
-		Angela Josephine Marianne Mary Sarah
+		Angela Deborah Esther Magdalene Marianne Martha Mary Salome Sarah Tamara
 	}
 	
 	#default interface
